@@ -1,6 +1,77 @@
 
 
-.mainDude {
-    background-color: aquamarine;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.main-header{
+    /* background-color: blue; */
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    
+    
+}
+
+.container{
+    /* background-color: burlywood; */
+    max-width: 500px;
+
+}
+
+.placeholder{
+    border: #f4f4f4;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#button{
+    background-color: yellow;
+    color: black;
+    padding: 2px;
+    border: none;
+}
+
+.list-wrapper{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list1{
+    border: black;
+    border-style: solid;
+    border-width: 1px 0px 1px 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list2{
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    border: lightgray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.list-group{
+    background-color: whitesmoke;
+    border: lightgray;
+    border-width: 1px;
+    border-style: solid;
 }
