@@ -15,21 +15,21 @@
     <div class="container">
         <div id="main" class="app app-body">
             <h2>Is This Word a Palindrome?</h2>
-            <form class="my-form" action="text">
+            <form class="my-form" id="my-form" action="text">
                 <label for="text" id="userImput">What is the word?</label>
-                <input class="placeholder" type="text" name="what-is-the-word" placeholder="  Type Here">
-                <button class="btn" id="button">Submit</button>
+                <input class="placeholder" id="my-input" type="text" name="what-is-the-word" placeholder="  Type Here">
+                <button class="btn" id="button" value="Submit">Submit</button>
             </form>
         <div class="list-wrapper">
             <div class="list1">
-                <h2>Palindrome!</h2>
+                <h3>Palindrome!</h3>
                 <ul class="list-group" id="yes-palindrome-list">
                     <li class="word-list" id="yes-word-list">Word 1</li>
                     <li class="word-list" id="yes-word-list">Word 2</li>
                 </ul>
             </div>
             <div class="list2">
-                <h2>NOT a Palindrome!</h2>
+                <h3>NOT a Palindrome!</h3>
                 <ul class="list-group" id="not-palindrome-list">
                     <li class="word-list" id="no-word-list">Word 1</li>
                     <li class="word-list" id="no-word-list">Word 2</li>
